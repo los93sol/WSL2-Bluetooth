@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34212.112
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSL2-Bluetooth", "WSL2-Bluetooth\WSL2-Bluetooth.csproj", "{8797B98C-6014-4BB6-8D77-389A3A204B7B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F57B0C59-226F-4DC6-9AE7-175E47AB737A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8797B98C-6014-4BB6-8D77-389A3A204B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8797B98C-6014-4BB6-8D77-389A3A204B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8797B98C-6014-4BB6-8D77-389A3A204B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8797B98C-6014-4BB6-8D77-389A3A204B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57B0C59-226F-4DC6-9AE7-175E47AB737A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57B0C59-226F-4DC6-9AE7-175E47AB737A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57B0C59-226F-4DC6-9AE7-175E47AB737A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57B0C59-226F-4DC6-9AE7-175E47AB737A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EBCF167-2C9B-44B9-B752-FEDEC62FF910}
+	EndGlobalSection
+EndGlobal
