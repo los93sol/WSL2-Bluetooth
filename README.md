@@ -1,5 +1,5 @@
 # WSL2 Bluetooth
-Getting Bluetooth going in WSL 2 is typically a fair amount of work and it's a minefield.
+Getting Bluetooth going in WSL 2 is typically a fair amount of work and it's a minefield.  Hopefully this is helpful for someone somewhere!
 
 Initialize.ps1 simplifies this by doing the following...  
 1. Ensures WSL2 is setup with a default Ubuntu distro  
@@ -16,4 +16,12 @@ Initialize.ps1 simplifies this by doing the following...
 12. Installs usbipd-win  
 13. Installs docker desktop  
 
-If you have any issues running the script please make sure the line endings in BuildKernel.sh are Unix (LF), Notepad++ makes it simple to check/fix it.
+To run this...
+1. Open the solution in Visual Studio 2022
+2. Run "Scripts/Development/Initialize.ps1" in the package manager window
+3. Attach your bluetooth device to the ubuntu distro
+4. Run bluetoothctl inside the .NET container and it will work
+
+If you have any issues running the script...
+1. Make sure you please make sure you can execute powershell with "Set-ExecutionPolicy RemoteSigned"
+2. Make sure the line endings in BuildKernel.sh are Unix (LF), Notepad++ makes it simple to check/fix it.
