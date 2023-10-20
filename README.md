@@ -23,5 +23,5 @@ To run this...
 4. Run bluetoothctl inside the .NET container and it will work
 
 If you have any issues running the script...
-1. Make sure you please make sure you can execute powershell with "Set-ExecutionPolicy RemoteSigned"
+1. Make sure you can execute powershell with "Set-ExecutionPolicy RemoteSigned"
 2. Make sure the line endings in BuildKernel.sh are Unix (LF), Notepad++ makes it simple to check/fix it.
